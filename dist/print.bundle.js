@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
+/***/ "./src/print.js":
 /*!**********************!*\
-  !*** ./src/index.js ***!
+  !*** ./src/print.js ***!
   \**********************/
 /***/ (() => {
 
-eval("function component() {\n  const element = document.createElement(\"div\");\n\n  // Lodash, currently included via a script, is required for this line to work\n  element.innerHTML = _.join([\"Hello\", \"webpack\"], \" \");\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("\n\n//# sourceURL=webpack://webpack-demo/./src/print.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("function component() {\n  const element = document.createElement(\"div\");
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	__webpack_modules__["./src/print.js"]();
 /******/ 	
 /******/ })()
 ;
